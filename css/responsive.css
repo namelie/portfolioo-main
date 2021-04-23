@@ -1,0 +1,51 @@
+@media screen and (max-width: 1300px) {
+    .hr-vertical {
+        left: 12%;
+    }
+    .titre-pages {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .titre-pages {
+        margin: 0px;
+    }
+    .retour {
+        font-size: 3vw;
+    }
+    .marquee {
+        width: 102%;
+    }
+    .room {
+        width: 100%;
+    }
+    h2 {
+        font-size: 14vw;
+        bottom: 35%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu__item-link {
+        -webkit-text-stroke: 0.5px #000;
+    }
+    .titre-pages {
+        font-size: 11vw;
+        writing-mode: horizontal-tb;
+    }
+    hr.hr-vertical {
+        display: none;
+    }
+    .menu__item-link::before {
+        font-size: 2vw;
+    }
+    .menu__item-link,
+    .marquee span {
+        padding: 0 2vw;
+    }
+    h2 {
+        font-size: 15vw;
+        bottom: 30%;
+    }
+}
