@@ -20,12 +20,41 @@ body {
     position: relative;
 }
 
-h2 {
+@font-face {
+    font-family: 'tropilineblack';
+    src: url('../fonts/tropiline-black-webfont.woff2') format('woff2'), url('../fonts/tropiline-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tropiline_boldbold';
+    src: url('../fonts/tropiline-bold-webfont.woff2') format('woff2'), url('../fonts/tropiline-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tropilineregular';
+    src: url('../fonts/tropiline-regular-webfont.woff2') format('woff2'), url('../fonts/tropiline-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'tropiline_boldbold';
+}
+
+h2,
+h3,
+h4 {
     font-size: 11vw;
     text-align: center;
     position: absolute;
     z-index: 1;
-    bottom: 25%;
     margin: auto;
     color: rgb(255, 255, 255);
     mix-blend-mode: difference;
@@ -33,8 +62,82 @@ h2 {
     line-height: 86%;
 }
 
-.myuniverse {
+.discovermyuniverse {
+    bottom: 25%;
+}
+
+.whoiam {
+    left: 26%;
+    font-weight: 700;
+    top: 10vw;
+}
+
+.gallery3d {
+    top: 10vh;
+    font-weight: 700;
+    left: 3%;
+}
+
+.textaligncenter {
     text-align: center;
+}
+
+.text-whoiam {
+    margin-top: 60vw;
+    color: black;
+}
+
+.heyo {
+    font-size: 6vw;
+    font-family: 'tropilineblack';
+}
+
+.mytext {
+    font-size: 3vw;
+    line-height: 1;
+    font-family: 'tropilineregular';
+}
+
+
+/* 
+------------------------------------------------myuniverseparallaxphotos  */
+
+.delayed-section {
+    position: absolute;
+    width: 35vw;
+    height: 38.87vw;
+}
+
+.delayed-section .inner-container {
+    will-change: transform;
+}
+
+.delayed-section img {
+    max-width: 100%;
+    will-change: transform;
+}
+
+#del1 {
+    top: 25vh;
+    left: 7vw;
+}
+
+#del2 {
+    top: 40vh;
+    left: 60vw;
+}
+
+#del3 {
+    top: 35vh;
+    left: 28vw;
+}
+
+
+/* ------------------------------------------------myuniverseparallaxphotos */
+
+.amelie {
+    width: 50%;
+    margin: auto;
 }
 
 .room {
@@ -90,7 +193,7 @@ hr.hr-vertical {
 
 .retour {
     font-size: 1.5vw;
-    font-weight: 700;
+    font-family: 'tropiline_boldbold';
 }
 
 .flex {
@@ -201,13 +304,14 @@ a:focus {
 }
 
 .frame__title {
-    font-size: 13px;
+    font-size: 15px;
     margin: 0 0 1rem;
     font-weight: 700;
 }
 
 .frame__amelie {
-    font-size: 12px;
+    font-family: 'tropilineregular';
+    font-size: 15px;
     margin: 0 0 1rem;
     font-weight: 300;
     padding-left: 18px;
