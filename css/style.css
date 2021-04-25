@@ -56,20 +56,33 @@ h4 {
     position: absolute;
     z-index: 1;
     margin: auto;
-    color: rgb(255, 255, 255);
-    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+    mix-blend-mode: soft-light;
     margin-top: 50px;
     line-height: 86%;
 }
 
 .discovermyuniverse {
-    bottom: 25%;
+    bottom: 26%;
+}
+
+.hr-myuniverse {
+    margin-top: 120%;
+    left: 50%;
+}
+
+.lovehate {
+    font-family: 'tropiline_boldbold';
+    font-size: 11vw;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    line-height: 86%;
 }
 
 .whoiam {
     left: 26%;
     font-weight: 700;
-    top: 10vw;
+    top: 8vw;
 }
 
 .gallery3d {
@@ -98,6 +111,10 @@ h4 {
     font-family: 'tropilineregular';
 }
 
+.knowmore {
+    font-family: 'tropilineblack';
+}
+
 
 /* 
 ------------------------------------------------myuniverseparallaxphotos  */
@@ -118,18 +135,18 @@ h4 {
 }
 
 #del1 {
-    top: 25vh;
-    left: 7vw;
+    top: 40vh;
+    left: 11vw;
 }
 
 #del2 {
-    top: 40vh;
-    left: 60vw;
+    top: 38vh;
+    left: 62vw;
 }
 
 #del3 {
-    top: 35vh;
-    left: 28vw;
+    top: 32vh;
+    left: 36vw;
 }
 
 
@@ -187,8 +204,11 @@ hr.hr-vertical {
 .hr-vertical {
     border-left: 1px solid rgb(0, 0, 0);
     position: absolute;
-    left: 6%;
     top: 0;
+}
+
+.hr-graphicdesign {
+    left: 6%;
 }
 
 .retour {
