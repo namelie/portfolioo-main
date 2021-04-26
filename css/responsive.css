@@ -8,6 +8,9 @@
 }
 
 @media screen and (max-width: 850px) {
+    .menu__item-link {
+        -webkit-text-stroke: 0.5px #000;
+    }
     .titre-pages {
         margin: 0px;
     }
@@ -18,18 +21,19 @@
         width: 102%;
     }
     .room {
-        width: 100%;
+        width: 80%;
     }
     h2 {
         font-size: 14vw;
         bottom: 35%;
     }
+    .discovermyuniverse {
+        font-size: 15vw;
+        bottom: 34%;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    .menu__item-link {
-        -webkit-text-stroke: 0.5px #000;
-    }
     .titre-pages {
         font-size: 11vw;
         writing-mode: horizontal-tb;
@@ -44,8 +48,26 @@
     .marquee span {
         padding: 0 2vw;
     }
-    .discovermyuniverse {
-        font-size: 15vw;
-        bottom: 30%;
+    /* ----------------------------------------myuniverse */
+    #del1 {
+        top: 28vh;
+        left: 11vw;
+    }
+    #del2 {
+        top: 28vh;
+        left: 62vw;
+    }
+    #del3 {
+        top: 26vh;
+        left: 33vw;
+    }
+    .heyo {
+        font-size: 10vw;
+    }
+    .mytext {
+        font-size: 6vw;
+    }
+    .liste {
+        font-size: 4vw;
     }
 }

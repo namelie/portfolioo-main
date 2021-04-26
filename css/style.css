@@ -70,16 +70,23 @@ h4 {
 }
 
 .hr-myuniverse {
-    margin-top: 120%;
+    margin-top: 115%;
     left: 50%;
+    height: 20% !important;
 }
 
 .lovehate {
     font-family: 'tropiline_boldbold';
     font-size: 11vw;
-    color: rgb(0, 0, 0);
+    color: black;
     margin-top: 50px;
     line-height: 86%;
+}
+
+.liste {
+    font-family: 'tropilineregular';
+    font-size: 2vw;
+    color: black;
 }
 
 .whoiam {
@@ -106,6 +113,7 @@ h4 {
 .heyo {
     font-size: 6vw;
     font-family: 'tropilineblack';
+    color: black;
 }
 
 .mytext {
@@ -162,7 +170,7 @@ h4 {
 .room {
     width: 50%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 12vw;
 }
 
 .thumbail {
