@@ -31,6 +31,18 @@
         font-size: 15vw;
         bottom: 34%;
     }
+    #del1 {
+        top: 26vh;
+        left: 6vw;
+    }
+    #del2 {
+        top: 26vh;
+        left: 62vw;
+    }
+    #del3 {
+        top: 23vh;
+        left: 33vw;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -50,15 +62,15 @@
     }
     /* ----------------------------------------myuniverse */
     #del1 {
-        top: 28vh;
-        left: 11vw;
+        top: 13vh;
+        left: 7vw;
     }
     #del2 {
-        top: 28vh;
+        top: 14vh;
         left: 62vw;
     }
     #del3 {
-        top: 26vh;
+        top: 12vh;
         left: 33vw;
     }
     .heyo {

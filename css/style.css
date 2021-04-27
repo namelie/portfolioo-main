@@ -89,6 +89,11 @@ h4 {
     color: black;
 }
 
+.ytp-chrome-top,
+.ytp-show-cards-title {
+    display: none;
+}
+
 .whoiam {
     left: 26%;
     font-weight: 700;
