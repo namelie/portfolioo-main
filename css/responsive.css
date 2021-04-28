@@ -32,16 +32,16 @@
         bottom: 34%;
     }
     #del1 {
-        top: 26vh;
+        top: 24vh;
         left: 6vw;
     }
     #del2 {
-        top: 26vh;
+        top: 24vh;
         left: 62vw;
     }
     #del3 {
-        top: 23vh;
-        left: 33vw;
+        top: 20vh;
+        left: 30vw;
     }
 }
 
@@ -62,15 +62,15 @@
     }
     /* ----------------------------------------myuniverse */
     #del1 {
-        top: 13vh;
+        top: 15vh;
         left: 7vw;
     }
     #del2 {
-        top: 14vh;
+        top: 16vh;
         left: 62vw;
     }
     #del3 {
-        top: 12vh;
+        top: 14vh;
         left: 33vw;
     }
     .heyo {
