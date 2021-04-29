@@ -5,6 +5,9 @@
     .titre-pages {
         font-size: 5vw;
     }
+    .hr-myuniverse {
+        margin-top: 125%;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -32,15 +35,15 @@
         bottom: 34%;
     }
     #del1 {
-        top: 24vh;
+        top: 22vh;
         left: 6vw;
     }
     #del2 {
-        top: 24vh;
+        top: 22vh;
         left: 62vw;
     }
     #del3 {
-        top: 20vh;
+        top: 18vh;
         left: 30vw;
     }
 }
@@ -60,17 +63,20 @@
     .marquee span {
         padding: 0 2vw;
     }
+    .discovermyuniverse {
+        bottom: 30%;
+    }
     /* ----------------------------------------myuniverse */
     #del1 {
-        top: 15vh;
+        top: 17vh;
         left: 7vw;
     }
     #del2 {
-        top: 16vh;
+        top: 18vh;
         left: 62vw;
     }
     #del3 {
-        top: 14vh;
+        top: 16vh;
         left: 33vw;
     }
     .heyo {

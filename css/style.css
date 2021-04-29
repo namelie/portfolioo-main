@@ -62,6 +62,10 @@ h4 {
     line-height: 86%;
 }
 
+.colorblack {
+    color: black;
+}
+
 
 /* -------------------------------------------------------------------page who i am */
 
@@ -70,15 +74,14 @@ h4 {
 }
 
 .hr-myuniverse {
-    margin-top: 115%;
+    margin-top: 118%;
     left: 50%;
-    height: 20% !important;
+    height: 16% !important;
 }
 
 .lovehate {
     font-family: 'tropiline_boldbold';
     font-size: 11vw;
-    color: black;
     margin-top: 50px;
     line-height: 86%;
 }
