@@ -44,7 +44,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: 'tropiline_boldbold';
 }
 
@@ -66,11 +67,16 @@ h4 {
     color: black;
 }
 
+.tropbold {
+    font-family: 'tropiline_boldbold';
+    font-size: 20px;
+}
+
 
 /* -------------------------------------------------------------------page who i am */
 
 .discovermyuniverse {
-    bottom: 26%;
+    bottom: 20%;
 }
 
 .hr-myuniverse {
@@ -232,6 +238,7 @@ hr.hr-vertical {
 .retour {
     font-size: 1.5vw;
     font-family: 'tropiline_boldbold';
+    line-height: 1;
 }
 
 .flex {
