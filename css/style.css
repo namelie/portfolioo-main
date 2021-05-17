@@ -20,6 +20,11 @@ body {
     position: relative;
 }
 
+::selection {
+    color: white;
+    background-color: black;
+}
+
 @font-face {
     font-family: 'tropilineblack';
     src: url('../fonts/tropiline-black-webfont.woff2') format('woff2'), url('../fonts/tropiline-black-webfont.woff') format('woff');
@@ -62,7 +67,7 @@ h2 {
 }
 
 .colorblack {
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .bgblack {
@@ -87,7 +92,7 @@ h2 {
 }
 
 
-/* -------------------------------------------------------------------page who i am */
+/* -------------------------------------------------------------------page my universe */
 
 .discovermyuniverse {
     bottom: 20%;
@@ -163,6 +168,16 @@ h2 {
 
 .funny {
     font-size: 40px;
+}
+
+.videoytb {
+    width: 100%;
+    height: 750px;
+}
+
+.peinturevideoytb {
+    width: 100%;
+    height: 100%;
 }
 
 
