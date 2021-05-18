@@ -93,7 +93,7 @@
 
 /* ---------------------------------responsive height pour titre-pages */
 
-@media screen and (max-height: 1300px) {
+@media screen and (max-height: 900px) {
     .titre-pages {
         font-size: 3vw;
     }
