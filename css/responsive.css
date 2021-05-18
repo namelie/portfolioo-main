@@ -89,3 +89,12 @@
         font-size: 4vw;
     }
 }
+
+
+/* ---------------------------------responsive height pour titre-pages */
+
+@media screen and (max-height: 1300px) {
+    .titre-pages {
+        font-size: 3vw;
+    }
+}
