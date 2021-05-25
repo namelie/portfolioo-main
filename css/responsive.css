@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 576px) {
     .titre-pages {
-        font-size: 11vw;
+        font-size: 11vw !important;
         writing-mode: horizontal-tb;
     }
     hr.hr-vertical {
